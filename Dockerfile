@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/docker-test.jar docker-test.jar
+ADD target/docker-test2.jar docker-test2.jar
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","docker-test.jar"]
+ENTRYPOINT ["java","-jar","docker-test2.jar"]
